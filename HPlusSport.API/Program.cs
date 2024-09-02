@@ -66,9 +66,10 @@ internal class Program
             await _shopContext.SaveChangesAsync();
             return Results.CreatedAtRoute("GetProduct", new { id = product.Id, product });
 
-
-            app.MapPut("/product/{id}", async (int id, [FromBody] Product product, ShopContext _shopContext) =>
-            {
+        });
+            
+        app.MapPut("/product/{id}", async (int id, [FromBody] Product product, ShopContext _shopContext) =>
+         {
                 _shopContext.Entry(product).State = EntityState.Modified;
                 try
                 {
@@ -88,17 +89,22 @@ internal class Program
                 }
 
                 return Results.NoContent();
-            });
+        });
 
 
-            app.MapDelete("/product/{id}", async (int id, ShopContext _shopContext) =>
-            {
+        app.MapDelete("/product/{id}", async (int id, ShopContext _shopContext) =>
+            
+        {
                 var product = await _shopContext.Products.FindAsync(id);
                 if (product == null)
                 {
                     return Results.NotFound();
                 }
-            });
+
+                _shopContext.Products.Remove(product);
+            await _shopContext.SaveChangesAsync();
+            return Results.Ok(product);
+        });
 
                        app.Run();
     }

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|c:\\users\\lenovo\\source\\repos\\hplussport\\hplussport.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|solutionrelative:hplussport.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|c:\\users\\lenovo\\source\\repos\\hplussport\\hplussport.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|solutionrelative:hplussport.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|c:\\users\\lenovo\\source\\repos\\hplussport\\hplussport.api\\models\\queryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|solutionrelative:hplussport.api\\models\\queryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|c:\\users\\lenovo\\source\\repos\\hplussport\\hplussport.api\\models\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|solutionrelative:hplussport.api\\models\\iqueryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|c:\\users\\lenovo\\source\\repos\\hplussport\\hplussport.api\\models\\productqueryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|solutionrelative:hplussport.api\\models\\productqueryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|c:\\users\\lenovo\\source\\repos\\hplussport\\hplussport.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|solutionrelative:hplussport.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DC9F158-B725-4C55-B130-EADD1F9A64AD}|HPlusSport.API\\HPlusSport.API.csproj|c:\\users\\lenovo\\source\\repos\\hplussport\\hplussport.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "IQueryableExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\IQueryableExtensions.cs",
+              "RelativeDocumentMoniker": "HPlusSport.API\\Models\\IQueryableExtensions.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\IQueryableExtensions.cs",
+              "RelativeToolTip": "HPlusSport.API\\Models\\IQueryableExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T10:15:00.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductQueryParameters.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\ProductQueryParameters.cs",
+              "RelativeDocumentMoniker": "HPlusSport.API\\Models\\ProductQueryParameters.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\ProductQueryParameters.cs",
+              "RelativeToolTip": "HPlusSport.API\\Models\\ProductQueryParameters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:58:08.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QueryParameters.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\QueryParameters.cs",
+              "RelativeDocumentMoniker": "HPlusSport.API\\Models\\QueryParameters.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\QueryParameters.cs",
+              "RelativeToolTip": "HPlusSport.API\\Models\\QueryParameters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:44:45.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ModelBuilderExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\ModelBuilderExtensions.cs",
               "RelativeDocumentMoniker": "HPlusSport.API\\Models\\ModelBuilderExtensions.cs",
@@ -46,25 +97,24 @@
               "RelativeToolTip": "HPlusSport.API\\Models\\ModelBuilderExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T10:20:13.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T10:20:13.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Program.cs",
               "RelativeDocumentMoniker": "HPlusSport.API\\Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Program.cs",
               "RelativeToolTip": "HPlusSport.API\\Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAgwGIAAAAuAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwFsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T09:24:00.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ShopContext.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\ShopContext.cs",
               "RelativeDocumentMoniker": "HPlusSport.API\\Models\\ShopContext.cs",
@@ -72,12 +122,11 @@
               "RelativeToolTip": "HPlusSport.API\\Models\\ShopContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T09:05:40.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T09:05:40.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\Category.cs",
               "RelativeDocumentMoniker": "HPlusSport.API\\Models\\Category.cs",
@@ -85,12 +134,11 @@
               "RelativeToolTip": "HPlusSport.API\\Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T08:26:52.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T08:26:52.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Models\\Product.cs",
               "RelativeDocumentMoniker": "HPlusSport.API\\Models\\Product.cs",
@@ -98,18 +146,17 @@
               "RelativeToolTip": "HPlusSport.API\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T08:26:30.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T08:26:30.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "HPlusSport.API\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HPlusSport\\HPlusSport.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "HPlusSport.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAA0wFAAAAARAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T08:13:31.827Z",
               "EditorCaption": ""
