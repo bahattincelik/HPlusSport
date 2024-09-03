@@ -1,3 +1,4 @@
+using Asp.Versioning;
 using HPlusSport.API.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
@@ -12,6 +13,27 @@ internal class Program
         // Add services to the container.
 
         builder.Services.AddControllers();
+
+
+        builder.Services.AddApiVersioning(options =>
+        {
+            options.ReportApiVersions = true;
+            options.DefaultApiVersion = new Asp.Versioning.ApiVersion(1, 0);
+            options.AssumeDefaultVersionWhenUnspecified = true;
+            options.ApiVersionReader = ApiVersionReader.Combine(
+                new QueryStringApiVersionReader("api-version"),
+                new HeaderApiVersionReader("X-API-Version"),
+                new MediaTypeApiVersionReader("ver"));
+
+        })
+            .AddApiExplorer(options =>
+            {
+                options.GroupNameFormat = "'v'VVV";
+                options.SubstituteApiVersionInUrl = true;
+            });
+
+
+
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
@@ -36,6 +58,14 @@ internal class Program
 
         app.MapControllers();
 
+        var apiVersionSet=app.NewApiVersionSet()
+            .HasApiVersion(new ApiVersion(1, 0))
+            .HasApiVersion(new ApiVersion(2,0))
+            .ReportApiVersions()
+            .Build();
+
+
+
         using (var scope = app.Services.CreateScope())
         {
             var db = scope.ServiceProvider.GetRequiredService<ShopContext>();
@@ -45,8 +75,15 @@ internal class Program
         app.MapGet("/products", async (ShopContext _shopContext) =>
         {
             return await _shopContext.Products.ToListAsync();
-        });
-
+        })
+            .WithApiVersionSet(apiVersionSet)
+            .MapToApiVersion(new ApiVersion(1,0));
+        app.MapGet("/products", async (ShopContext _shopContext) =>
+        {
+            return await _shopContext.Products.Where(p=>p.IsAvailable==true).ToListAsync();
+        })
+            .WithApiVersionSet(apiVersionSet)
+            .MapToApiVersion(new ApiVersion(2, 0));
         app.MapGet("/products/{id}", async (int id, ShopContext _shopContext) =>
         {
             var product = await _shopContext.Products.FindAsync(id);
